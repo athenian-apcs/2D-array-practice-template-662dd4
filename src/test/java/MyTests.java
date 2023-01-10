@@ -24,7 +24,7 @@ public class MyTests {
                 {6,  2,  38,  1, 44} };
 
         assertEquals(7, MyMain.countOdds(m1),"The expected output for the number of odds in \nm1 = { {1,  2,  4,  6}, \n       {7,  9,  10, 12},\n       {14, 15, 17, 18},\n       {22, 23, 27, 30} }; should be: " + 7);
-        assertEquals(18, MyMain.countOdds(m2), "The expected output for the mean of odds in \nm2 = { {42, 37, 23, -5,  9}, \n       {11,  6, 22, 12, 13},\n       {14,  5, 17, 13, 20},\n       {1,   4, 27,  7, 32},\n       {21, -3,  5,  7, 99},\n       {6,  2,  38,  1, 44}}; should be: " + 19.24);
+        assertEquals(18, MyMain.countOdds(m2), "The expected output for the number of odds in \nm2 = { {42, 37, 23, -5,  9}, \n       {11,  6, 22, 12, 13},\n       {14,  5, 17, 13, 20},\n       {1,   4, 27,  7, 32},\n       {21, -3,  5,  7, 99},\n       {6,  2,  38,  1, 44}}; should be: " + 18);
     }
 
     @Test
