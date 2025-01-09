@@ -22,7 +22,7 @@ public class MyMain {
     }
 
     // Creates a 2D array of size arraySize x arraySize
-    // where each value is each to the sum of its row and col indexes
+    // where each value is equal to the sum of its row and col indexes
     public static int[][] arrayBuilder(int arraySize) {
         // YOUR CODE HERE
         return null;
